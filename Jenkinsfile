@@ -21,6 +21,7 @@ pipeline {
                   steps {
                         echo "Deploying in Production Area"
                   }
+            }
             stage('Deploy Gopal') {
                   steps {
                         echo "Modified by Gopal"
